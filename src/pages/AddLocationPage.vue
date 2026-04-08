@@ -2,8 +2,8 @@
   <q-page padding>
     <q-input v-model="name" label="Location name" />
 
-    <q-btn label="Take Photo" @click="takePhoto" class="q-mt-md" />
-    <q-btn label="Get Location" @click="getLocation" class="q-mt-md" />
+    <q-btn label="Take Photo" @click="takePhoto()" class="q-mt-md" />
+    <q-btn label="Get Location" @click="getLocation()" class="q-mt-md" />
 
     <q-btn label="Save" color="primary" @click="saveLocation" class="q-mt-md" />
 

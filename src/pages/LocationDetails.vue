@@ -15,6 +15,8 @@
     />
   </q-page>
 
+
+
   <q-page v-else padding>
     <p>Location not found</p>
   </q-page>
